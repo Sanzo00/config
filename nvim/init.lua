@@ -1,0 +1,8 @@
+require("sanzo.plugins-setup")
+require("sanzo.core.options")
+require("sanzo.core.keymaps")
+require("sanzo.core.colorscheme")
+require("sanzo.plugins.comment")
+require("sanzo.plugins.nvim-tree")
+require("sanzo.plugins.lualine")
+require("sanzo.plugins.gitsigns")
