@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - WEBUI_PORT=18000
+    ports:
+      - "18000:18000"
+      - "46881:46881"
+      - "46881:46881/udp"
+    volumes:
+      - /home/sanzo/software/qbittorrent-config:/config
+      - /home/sanzo/share:/downloads
+    networks:
+      - my-net-ipv6
+
+networks:
+  my-net-ipv6:
+    external: true

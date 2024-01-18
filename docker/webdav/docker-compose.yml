@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  webdav:
+    image: bytemark/webdav
+    container_name: webdav
+    restart: always
+    ports:
+      - "18888:80"
+    environment:
+      - AUTH_TYPE=Digest
+      - USERNAME=user
+      - PASSWORD=webdav123
+      - LOCATION=/webdav
+    volumes:
+      - /home/sanzo/nvme/share:/var/lib/dav/data
+      - /home/sanzo/software/docker/webdav/conf-enabled:/usr/local/apache2/conf/conf-enabled/
+    # detach: true
+
