@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Metadata",
+    "guid": "f962a752-15e8-4a43-b42a-6d9cfba35ce1",
+    "name": "Douban",
+    "description": "Provide Movie/TV metadata from Douban",
+    "owner": "Xzonn",
+    "overview": "Douban Metadata Provider for Jellyfin",
+    "versions": [
+      {
+        "checksum": "B727A31C59E815FB63FB21C1463C7E26",
+        "changelog": "Initial commit",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.0.0.0.zip",
+        "timestamp": "2023-11-02T13:00:00Z",
+        "version": "1.0.0.0"
+      },
+      {
+        "checksum": "6AB1F8D93688B8096D5DA5084119D1E1",
+        "changelog": "- Add rate control and caches\n- Fix null reference exceptions\n- Fix handling of multiple seasons",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.0.1.0.zip",
+        "timestamp": "2023-11-04T16:00:00Z",
+        "version": "1.0.1.0"
+      },
+      {
+        "checksum": "5030E0CBEA1FA189FE7A3531B9187E62",
+        "changelog": "- Update config\n- Add QueriedById property to result object\n- Add AnitomySharp to search for titles\n- Add EpisodeProvider",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.0.2.0.zip",
+        "timestamp": "2023-11-06T08:00:00Z",
+        "version": "1.0.2.0"
+      },
+      {
+        "checksum": "9B3C1B4FE22B043F2A6F5DD0258D37E7",
+        "changelog": "See: https://github.com/Xzonn/JellyfinPluginDouban/tree/v1.0.3",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.0.3.0.zip",
+        "timestamp": "2023-11-06T14:58:12Z",
+        "version": "1.0.3.0"
+      },
+      {
+        "checksum": "E8411609EA270014A1DA61F00E6F04CF",
+        "changelog": "See: https://github.com/Xzonn/JellyfinPluginDouban/tree/v1.0.4",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.0.4.0.zip",
+        "timestamp": "2023-11-06T15:21:21Z",
+        "version": "1.0.4.0"
+      },
+      {
+        "checksum": "84D4B959C3CC9B1EB993B996A1B2C958",
+        "changelog": "See: https://github.com/Xzonn/JellyfinPluginDouban/tree/v1.0.5",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.0.5.0.zip",
+        "timestamp": "2023-11-12T12:02:42Z",
+        "version": "1.0.5.0"
+      },
+      {
+        "checksum": "8DAFA3EF2649A53206E269871DC4502A",
+        "changelog": "See: https://github.com/Xzonn/JellyfinPluginDouban/tree/v1.0.6",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://xzonn.top/JellyfinPluginDouban/dist/Jellyfin.Plugin.Douban.1.0.6.0.zip",
+        "timestamp": "2023-11-27T16:22:14Z",
+        "version": "1.0.6.0"
+      }
+    ]
+  }
+]

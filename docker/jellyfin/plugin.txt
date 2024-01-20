@@ -1,0 +1,2 @@
+https://github.com/Xzonn/JellyfinPluginDouban
+https://xzonn.top/JellyfinPluginDouban/manifest.json
