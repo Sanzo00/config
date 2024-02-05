@@ -1,0 +1,17 @@
+services:
+  emulatorjs:
+    image: lscr.io/linuxserver/emulatorjs:latest
+    container_name: emulatorjs
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+        #- SUBFOLDER=/ #optional
+    volumes:
+      - /home/sanzo/software/emulatorjs/config:/config
+      - /home/sanzo/software/emulatorjs/data:/data
+    ports:
+      - 13000:3000
+      - 18080:80
+        #- 14001:4001 #optional
+    restart: unless-stopped
